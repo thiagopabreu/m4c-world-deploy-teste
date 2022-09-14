@@ -13,7 +13,6 @@
 // express will run our server
 const express = require("express");
 const app = express();
-app.use(express.static("public"));
 
 // HTTP will expose our server to the web
 const http = require("http").createServer(app);
